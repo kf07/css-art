@@ -1,7 +1,8 @@
 <template>
   <section>
     <div>
-      <Egg />
+<!--      <Egg />-->
+      <Webpack />
     </div>
   </section>
 </template>
@@ -9,9 +10,11 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import Egg from "../components/Egg";
+import Webpack from "../components/Webpack";
 
 export default {
   components: {
+    Webpack,
     Egg,
     Logo
   }
